@@ -35,6 +35,7 @@ articleView.handleAuthorFilter = () => {
   });
 };
 
+
 articleView.handleCategoryFilter = () => {
   $('#category-filter').on('change', function() {
     if ($(this).val()) {
